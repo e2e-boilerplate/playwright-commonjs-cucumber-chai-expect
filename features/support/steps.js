@@ -6,19 +6,20 @@ const {
   AfterAll,
   setDefaultTimeout
 } = require("cucumber");
-const playwright = require("playwright").chromium;
+const { chromium } = require("playwright");
 const { expect } = require("chai");
 
 let page;
 let browser;
-let context;
 
 setDefaultTimeout(50 * 1000);
 
 BeforeAll(async () => {
   browser = process.env.GITHUB_ACTIONS
-    ? await playwright.launch({ headless: true })
-    : await playwright.launch({ headless: false });
+    ? await chromium.launch({ headless: true })
+    : await chromium.launch({ headless: false });
+  const context = await browser.newContext();
+  page = await context.newPage();
 });
 
 AfterAll(() => {
@@ -28,8 +29,11 @@ AfterAll(() => {
 });
 
 Given("Navigate to the sandbox", async () => {
-  context = await browser.newContext();
-  page = await context.newPage("https://e2e-boilerplates.github.io/sandbox/");
+  await page
+    .goto("https://e2e-boilerplates.github.io/sandbox/", {
+      waitUntil: "networkidle0"
+    })
+    .catch(() => {});
 });
 
 When("I am on the sandbox page", async () => {
