@@ -6,7 +6,7 @@ const {
   AfterAll,
   setDefaultTimeout
 } = require("cucumber");
-const { chromium } = require("playwright");
+const playwright = require("playwright").chromium;
 const { expect } = require("chai");
 
 let page;
@@ -14,12 +14,11 @@ let browser;
 let context;
 
 setDefaultTimeout(50 * 1000);
-require("chromedriver");
 
 BeforeAll(async () => {
   browser = process.env.GITHUB_ACTIONS
-    ? await chromium.launch({ headless: true })
-    : await chromium.launch({ headless: false });
+    ? await playwright.launch({ headless: true })
+    : await playwright.launch({ headless: false });
 });
 
 AfterAll(() => {
