@@ -20,9 +20,6 @@ BeforeAll(async () => {
   browser = process.env.GITHUB_ACTIONS
     ? await chromium.launch({ headless: true })
     : await chromium.launch({ headless: false });
-
-  context = await browser.newContext();
-  page = await context.newPage();
 });
 
 AfterAll(() => {
@@ -32,11 +29,8 @@ AfterAll(() => {
 });
 
 Given("Navigate to the sandbox", async () => {
-  await page
-    .goto("https://e2e-boilerplates.github.io/sandbox/", {
-      waitUntil: "networkidle0"
-    })
-    .catch(() => {});
+  context = await browser.newContext();
+  page = await context.newPage("https://e2e-boilerplates.github.io/sandbox/");
 });
 
 When("I am on the sandbox page", async () => {
