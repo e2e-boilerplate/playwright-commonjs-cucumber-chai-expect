@@ -16,7 +16,7 @@ setDefaultTimeout(50 * 1000);
 
 BeforeAll(async () => {
   browser = process.env.GITHUB_ACTIONS
-    ? await chromium.launch()
+    ? await chromium.launch({ headless: true })
     : await chromium.launch({ headless: false });
 
   const context = await browser.newContext();
