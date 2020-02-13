@@ -11,6 +11,7 @@ const { expect } = require("chai");
 
 let page;
 let browser;
+let context;
 
 setDefaultTimeout(50 * 1000);
 require("chromedriver");
@@ -20,7 +21,7 @@ BeforeAll(async () => {
     ? await chromium.launch({ headless: true })
     : await chromium.launch({ headless: false });
 
-  const context = await browser.newContext();
+  context = await browser.newContext();
   page = await context.newPage();
 });
 
