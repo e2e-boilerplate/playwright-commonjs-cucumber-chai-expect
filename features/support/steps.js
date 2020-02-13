@@ -13,6 +13,7 @@ let page;
 let browser;
 
 setDefaultTimeout(50 * 1000);
+require("chromedriver");
 
 BeforeAll(async () => {
   browser = process.env.GITHUB_ACTIONS
