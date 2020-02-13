@@ -1,0 +1,27 @@
+name: puppeteer-commonjs-cucumber-chai
+
+on: 
+  push:
+  schedule:
+    - cron: '0 0 1-31/2 * *' 
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Use Node.js 12.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: '12.x'
+    - name: INSTALL PACKAGES
+      run: |
+        npm ci
+      env:
+        CI: true
+    - name: RUN TESTS
+      run: |
+        npm run lint
+        npm run test
