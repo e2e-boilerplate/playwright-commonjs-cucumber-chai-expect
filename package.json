@@ -1,7 +1,7 @@
 {
-  "name": "playwright-commonjs-cucumber-chai",
+  "name": "playwright-commonjs-cucumberjs-chai",
   "version": "1.0.0",
-  "description": "Playwright end-to-end test automation boilerplate, using CommonJS, Cucumber and Chai.",
+  "description": "Playwright end-to-end test automation boilerplate, using CommonJS, CucumberJS and Chai.",
   "scripts": {
     "test": "./node_modules/.bin/cucumber-js",
     "lint": "npx eslint --ext .js ./ --fix"
