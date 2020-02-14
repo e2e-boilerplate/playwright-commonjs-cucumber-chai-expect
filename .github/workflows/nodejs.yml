@@ -1,4 +1,4 @@
-name: playwright-commonjs-cucumber-chai
+name: playwright-commonjs-cucumberjs-chai
 
 on:
   push:
