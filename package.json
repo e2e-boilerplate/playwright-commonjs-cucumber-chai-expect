@@ -1,7 +1,7 @@
 {
-  "name": "playwright-commonjs-cucumberjs-chai",
+  "name": "playwright-commonjs-cucumberjs-chai-expect",
   "version": "1.0.0",
-  "description": "Playwright end-to-end test automation boilerplate, using CommonJS, CucumberJS and Chai.",
+  "description": "Playwright end-to-end test automation boilerplate, using CommonJS, CucumberJS, Chai and Expect.",
   "scripts": {
     "test": "./node_modules/.bin/cucumber-js",
     "lint": "npx eslint --ext .js ./ --fix"
@@ -12,7 +12,10 @@
     "cucumber",
     "chai",
     "boilerplate",
-    "example"
+    "example",
+    "expect",
+    "e2e",
+    "e2e test"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
