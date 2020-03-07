@@ -1,5 +1,5 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "dependencies": {
     "chai": "4.2.0",
     "chromedriver": "80.0.1",
@@ -25,15 +25,10 @@
     }
   },
   "keywords": [
-    "boilerplate",
     "chai",
     "commonjs",
     "cucumberjs",
-    "e2e",
-    "e2e tests",
-    "example",
     "expect",
-    "integration test",
     "playwright"
   ],
   "license": "MIT",
