@@ -1,12 +1,12 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "dependencies": {
     "chai": "4.2.0",
     "chromedriver": "80.0.1",
     "cucumber": "6.0.5",
     "playwright": "0.11.1"
   },
-  "description": "Playwright end-to-end test automation boilerplate, using CommonJS, CucumberJS, Chai and Expect.",
+  "description": "playwright end-to-end test automation boilerplate.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.0.0",
@@ -25,10 +25,15 @@
     }
   },
   "keywords": [
+    "boilerplate",
     "chai",
     "commonjs",
     "cucumberjs",
+    "e2e",
+    "e2e tests",
+    "example",
     "expect",
+    "integration test",
     "playwright"
   ],
   "license": "MIT",
