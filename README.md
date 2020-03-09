@@ -6,7 +6,7 @@ Playwright end-to-end test automation boilerplate, using Commonjs, Cucumber, Cha
 
 ## Getting Started
 
-    	git clone git@github.com:e2e-boilerplate/playwright-commonjs-cucumber-chai-expect.git
-    	cd playwright-commonjs-cucumber-chai-expect
-    	npm install
-    	npm run test
+    	1. git clone git@github.com:e2e-boilerplate/playwright-commonjs-cucumber-chai-expect.git
+    	2. cd playwright-commonjs-cucumber-chai-expect
+    	3. npm install
+    	4. npm run test
