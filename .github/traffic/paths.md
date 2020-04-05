@@ -1,0 +1,12 @@
+| referrer                                                                                        | count | uniques |
+| :---------------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect                                       | 9     | 4       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/tree/master/features                  | 6     | 3       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/tree/master/features/support          | 5     | 3       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/blob/master/features/support/steps.js | 4     | 3       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/blob/master/README.md                 | 2     | 1       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/blob/master/.eslintrc.json            | 1     | 1       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/blob/master/features/sandbox.feature  | 1     | 1       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/blob/master/LICENSE                   | 1     | 1       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/blob/master/package.json              | 1     | 1       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/tree/master/.github                   | 1     | 1       |
