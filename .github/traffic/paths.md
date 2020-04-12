@@ -4,7 +4,7 @@
 | /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/tree/master/features                  | 8     | 3       |
 | /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/tree/master/features/support          | 5     | 3       |
 | /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/blob/master/features/support/steps.js | 4     | 3       |
-| /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/actions                               | 3     | 1       |
+| /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/actions                               | 4     | 1       |
 | /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/blob/master/README.md                 | 2     | 1       |
 | /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/actions/runs/72236350                 | 1     | 1       |
 | /e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/actions/runs/72249926                 | 1     | 1       |
