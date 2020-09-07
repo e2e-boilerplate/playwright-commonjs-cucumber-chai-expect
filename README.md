@@ -2,7 +2,7 @@
     
 # Playwright Boilerplate
     
-Playwright end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Cucumber](https://github.com/cucumber/cucumber-js), [Chai](https://www.chaijs.com) and [Commonjs](https://www.chaijs.com/api/bdd/).. Clone or fork this repository.
+Playwright end-to-end test automation boilerplate, Using [Commonjs](https://requirejs.org/docs/commonjs.html), [Cucumber](https://github.com/cucumber/cucumber-js), [Chai](https://www.chaijs.com) and [Commonjs](https://www.chaijs.com/api/bdd/). Clone or fork this repository.
     
 ## Getting Started
     	1. git clone git@github.com:e2e-boilerplate/playwright-commonjs-cucumber-chai-expect.git
