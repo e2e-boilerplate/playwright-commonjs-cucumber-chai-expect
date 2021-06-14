@@ -5,7 +5,7 @@
   },
   "dependencies": {
     "chai": "4.3.4",
-    "chromedriver": "90.0.1",
+    "chromedriver": "91.0.1",
     "cucumber": "6.0.5",
     "playwright": "1.12.2"
   },
