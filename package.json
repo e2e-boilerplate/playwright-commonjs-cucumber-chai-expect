@@ -7,7 +7,7 @@
     "chai": "4.3.4",
     "chromedriver": "90.0.1",
     "cucumber": "6.0.5",
-    "playwright": "1.12.3"
+    "playwright": "1.13.0"
   },
   "description": "Playwright end-to-end test automation boilerplate. Using Commonjs, Cucumber, Chai and Expect.",
   "devDependencies": {
