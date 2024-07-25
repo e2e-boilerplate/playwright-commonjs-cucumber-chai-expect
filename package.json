@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/playwright-commonjs-cucumber-chai-expect/issues"
   },
   "dependencies": {
-    "chai": "4.3.4",
+    "chai": "4.5.0",
     "chromedriver": "90.0.1",
     "cucumber": "6.0.5",
     "playwright": "1.13.1"
